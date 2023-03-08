@@ -1,0 +1,73 @@
+body {
+  display: grid;
+  grid-template-columns: minmax(300px, auto) 1fr;
+  grid-template-areas: "navbar mainContent";
+  grid-gap: 30px;
+}
+
+nav {
+  grid-area: navbar;
+  position: fixed;
+}
+
+nav h1 {
+  text-align: center;
+  font-size: 28px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  list-style-type: none;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 15px;
+  display: block;
+}
+
+#main-doc {
+  grid-area: mainContent;
+}
+.main-section {
+  border: 1px black solid;
+  padding: 20px;
+}
+
+main h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-bottom: 30px;
+}
+
+main h3 {
+  font-size: 20px;
+  padding-left: 40px;
+}
+
+main li {
+  padding: 5px;
+}
+
+.code-example {
+  background-color: #CCC;
+  display: block;
+  padding: 20px;
+  margin: 25px;
+}
+
+code {
+  background-color: #CCC;
+}
+
+@media screen {
+  
+}

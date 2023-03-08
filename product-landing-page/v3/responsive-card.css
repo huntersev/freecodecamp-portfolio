@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  color: white;
+  background: rgb(43, 43, 43);
+  width: 350px;
+  height: 500px;
+  margin: 30px;
+  border-radius: 10px;
+  font-family: 'Smooch Sans', sans-serif;
+}
+
+.card-image {
+  background-color: black;
+  height: 230px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.car-1 {
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/32e5e0f3-5c04-42ef-8f8f-c6b1c26f8a9e/bvlatuR/std/2880x1800/ms-main-hero-desktop');
+}
+
+.car-2 {
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/d0cecbbf-1a20-4b48-b136-fb096af19515/bvlatuR/std/2880x1800/model-3-main-hero-a-desktop');
+}
+
+.car-3 {
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/da705069-91b5-41cb-86f3-86a585c6fdf3/bvlatuR/std/2880x1800/MX-Hero-Desktop');
+}
+
+.card h2 {
+  padding: 10px;
+}
+
+.card p {
+  padding: 10px;
+}
+
+.card a {
+  background-color: rgb(64, 64, 64);
+  color: white;
+  padding: 10px 10px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.card:hover {
+  background-color: rgb(30, 30, 30);
+  transform: scale(1.1);
+  transition: all 1s ease;
+}

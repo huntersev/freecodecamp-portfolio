@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Smooch Sans', sans-serif
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 100px;
+}
+
+#video{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+#video iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  align-content: center;
+}
+
+#about {
+  color: white;
+  background-color: rgb(43 , 43, 43);
+  width: 950px;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+#about h2 {
+  display: block;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
+#about h3 {
+  padding-left: 30px;
+  text-decoration: underline;
+}
+
+#about p {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+}
+
+#about:hover {
+  background-color: rgb(30, 30, 30);
+  transform: scale(1.1);
+  transition: all 1s ease;
+}
+
+.gradient {
+  color: white;
+  background-color: rgb(43 , 43, 43);
+  width: 400px;
+  border-radius: 15px;
+}
+
+.gradient h2 {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 50px;
+}
+
+.gradient-img {
+  height: 600px;
+  width: 400px;
+  background-size: 100% 600px;
+  border-radius: 0 0 15px 15px;
+}
+
+.img1 {
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/c0c475f7-2856-46e1-87ab-dd67ec8dd43f/bvlatuR/std/2880x1800/MS-Interior-Hero-Desktop');
+}
+
+.img2 {
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/173055ff-afe2-4114-947e-ba62cf8e05c6/bvlatuR/std/2880x1800/PW-Inverter-Hero-D');
+}
+
+.img3 {
+  background-image: url('https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/hcukymjitstff5zm_1590834618.jpeg');
+}
+
+@media all and (max-width:480px) {
+  #about {
+  padding: 0;
+  }
+  #about p {
+    font-size: 25px;
+  }
+  .gradient {
+    display: none;
+  }
+}

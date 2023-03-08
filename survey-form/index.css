@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+* {
+  font-family: 'Patrick Hand', cursive;
+}
+html { 
+  background: url(https://i.imgur.com/5h48CuZ.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container {
+  position: relative;
+  left: 3%;
+  text-align: left;
+  background-color: rgb(255, 255, 255, 0.7);
+  width: 20%;
+  padding: 25px;
+  border-style: solid;
+  border-radius: 25px;
+}
+header {
+  text-align: center;
+}
+.images{
+  position:absolute;
+  right: 0px;
+  top: 0px;
+  width: 150px;
+  padding: 125px;
+  opacity: 60%;
+}
+  #humane-society {
+    height: 150px;
+    margin: -45px;
+    border-radius: 25px;
+    border-style: solid;  
+  }
+  #best-friend {
+    height: 150px;
+    margin: 100px;
+    border-radius: 25px;
+    border-style: solid;
+  }
+  #spca {
+    height: 150px;
+    margin: -45px;
+    border-radius: 25px;
+    border-style: solid;
+  }
+.form-group {
+  font-size: 20px;
+}

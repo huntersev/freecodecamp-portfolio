@@ -1,0 +1,152 @@
+<head>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1 id="title"><u>Animal Adoption Survey</u></h1>
+    <p id="description"> Interested in adopting? Fill out this quick survey and we will contact you as soon as possible.</p>
+  </header>
+  <br>
+  <br>
+<!-- Name -->
+<form id="survey-form">
+  <div class="form-group">
+    <label id="name-label" for="name"><b>Name</b></label>
+    <br>
+    <input 
+           type="text" 
+           name="name" id="name" 
+           class="form-control" 
+           placeholder="Enter Name" 
+           required/>
+  </div>
+<!-- Age -->  
+    <div class="form-group">
+    <label id="number-label" for="number"><b>Age</b></label>
+      <br>
+    <input 
+           type="number" 
+           name="age" 
+           id="number" 
+           class="form-control" 
+           placeholder="Enter Age" />
+     
+  </div>
+<!-- Email -->
+  <div class="form-group">
+    <label id="email-label" for="email"><b>Email</b></label>
+    <br>
+    <input 
+           type="email" 
+           name="email" 
+           id="email" 
+           class="form-control" 
+           placeholder="Enter Email" />
+  </div>
+<!-- Phone Number -->
+    <div class="form-group">
+    <label id="phone-label" for="phone-number"><b>Phone Number</b></label>
+      <br>
+    <input 
+           type="tel" 
+           name="phone-number" 
+           id="phone-number" 
+           class="form-control" 
+           placeholder="Enter Phone Number" />
+  </div>
+  <!-- Dropdown -->
+  <div class="form-group">
+    <p> <b>Do you live in a:</b></p>
+    <select id="dropdown" name="home" class="form-control"required>
+      <option disabled selected value> Select an option</option>
+      <option value="house"> House</option>
+      <option value="townhouse"> Townhouse</option>
+      <option value="condo"> Condo</option>
+      <option value="apartnent"> Apartment</option>
+      <option value="duplex"> Duplex</option>
+      <option value="other"> Other</option>
+    </select> </div>
+  <!-- Radio Button -->
+  <div class="form-group">
+    <p> <b>Do you:</b></p>
+      <label>
+        <input name="living-arrange" 
+               value="own" type="radio"
+               class="input-radio" 
+               checked /> Own
+      </label>
+      <label>
+        <input name="living-arrange" 
+               value="rent" 
+               type="radio"
+               class="input-radio" /> Rent
+      </label>
+      <label>
+        <input name="living-arrange" 
+               value="parents" 
+               type="radio"
+               class="input-radio" /> Live with Parents
+      </label>
+        <input name="living-arrange" 
+               value="other" 
+               type="radio"
+               class="input-radio" /> Other
+      </label>
+  </div>
+  <br>
+<!-- Checkboxes -->
+  <div class="form-group">
+    <p> <b>What animal(s) are you interested in adopting?</b> </p>
+    <label>
+      <input 
+             name="animals" 
+             value="Dog" 
+             type="checkbox" 
+             class="input-checkbox" /> Dog
+    </label>
+      <input 
+             name="animals" 
+             value="cat" 
+             type="checkbox" 
+             class="input-checkbox" /> Cat
+    </label>
+    <input 
+             name="animals" 
+             value="bunny" 
+             type="checkbox" 
+             class="input-checkbox" /> Bunny
+    </label>
+    <input 
+             name="animals" 
+             value="other" 
+             type="checkbox" 
+             class="input-checkbox" /> Other
+    </label>
+  </div>
+<br>
+<!-- Comments -->
+  <div class="form-group">
+    <p> <b>Additional comments/concerns?</b></p>
+    <textarea 
+            id="comments" 
+            class="input-textarea" 
+            name="comment" 
+            placeholder="Comment here!">
+    </textarea>
+ </div>
+<!-- Submit -->
+  <div class="form-group">
+  <button type="submit" id="submit" class="submit-button"> Submit</button>
+  </div>
+</form>
+</div>
+<!-- Images -->
+<div class="images">
+ <img src="https://awards.brandingforum.org/wp-content/uploads/2019/08/HSI_LogoV_K.jpg" id="humane-society">
+ <img src="https://prd-use1-shelter-app.s3.amazonaws.com/ojfjqwleiu.png" id="best-friend">
+ <img src="https://www.wlbutler.com/wp-content/uploads/2015/02/logo-spca-300x300.jpg" id="spca">
+</div>
+   
+</body> 
+                                                                              

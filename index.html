@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+3D&family=Smooch+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    
+  </head>
+
+  <body>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+      <ul id="navi-list">
+        <li><a href="#welcome-section">About</a></li>
+        <li><a href="#projects">My Work</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+      <div class="menu" id="togglebutton">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+      </div>
+    </nav>
+
+    <!-- Welcome -->
+    <section id="welcome-section">
+      <h1>Hunter S.</h1>
+      <br>
+      <h2>Web Developer</h2>
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects">
+
+      <a href="https://codepen.io/Hunter_SEV/pen/abVmdjJ?editors=1100" target="_blank"><div class="project-tile tribute-tile">
+        <div class="tile-image project1"></div>
+        <h2>Rodney Mullen Tribute Page</h2>
+      </div></a>
+
+      <a href="https://codepen.io/Hunter_SEV/pen/podbyrw" target="_blank"><div class="project-tile survey-tile">
+        <div class="tile-image project2"></div>
+        <h2>Animal Adoption Survey</h2>
+      </div></a>
+
+      <a href="https://codepen.io/Hunter_SEV/pen/vYpOopm" target="_blank"><div class="project-tile product-tile">
+        <div class="tile-image project3"></div>
+        <h2>Tesla Product Landing Page</h2>
+      </div></a>
+
+      <a href="https://codepen.io/Hunter_SEV/pen/yLpeRNw" target="_blank"><div class="project-tile tech-tile">
+        <div class="tile-image project4"></div>
+        <h2>Javascript Technical Documentation</h2>
+      </div></a>
+    </section>
+
+    <!-- Contact -->
+    <footer id="footer">
+      <h1>Lets build your dream website</h1>
+      <h2> Contact me below</h2>
+      <div id="socials">
+        <a class="icon" href="mailto:severn.hunter@gmail.com" target="_blank">
+          <ion-icon name="mail-outline"></ion-icon><B>Email</B>
+        </a>
+
+        <a class="icon" href="tel:1111111111" target="_blank">
+          <ion-icon name="call-outline"></ion-icon><b>Call</b>
+        </a>
+
+        <a class="icon" href="https://www.linkedin.com/in/hunter-severn-98278622b/" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon><b>Linkedin</b>
+        </a>
+
+        <a class="icon" id="profile-link" href="https://www.freecodecamp.org/fccebc3f076-9d3b-4fd8-af2b-e9bcdf2ec854" target="_blank">
+          <ion-icon name="code-outline"></ion-icon><b>FreeCodeCamp</b>
+        </a>
+
+      </div>
+    </footer>
+
+    <script src="" async defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+      const toggleButton = document.getElementById('togglebutton');
+      const naviList = document.getElementById('navi-list');
+  
+      toggleButton.addEventListener('click', () => {
+        naviList.classList.toggle('active');
+      })
+    </script>
+  </body>
+
+</html>

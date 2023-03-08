@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+  font-family: 'Oswald', sans-serif;
+}
+#rodneyvid {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#main {
+  color: white;
+}
+header {
+  position: fixed;
+  background: transparent;
+  top:20px;
+  left:20px;
+  font-size: 20px;
+}
+h1 {
+  font-size: 60px;
+}
+
+#tribute-info {
+ position: fixed;
+ background: transparent;
+ bottom:20px;
+ left:20px;
+ font-size: 15px;
+ }
+
+#socials {
+ position: fixed;
+ background:transparent;
+ bottom:20px;
+ right:20px;
+}
+#fb {
+  height: 40px;
+  width: 40px;
+}
+#ig {
+  height: 40px;
+  width: 40px;  
+}
+a:link {
+  color: #5D9FE9;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #5D9FE9;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5D9FE9;
+  background-color: transparent;
+  text-decoration: underline;
+}
